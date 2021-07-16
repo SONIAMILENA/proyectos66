@@ -15,4 +15,11 @@ public class ClientePremium extends Persona implements Tiquete
     public int getNumeroTarjeta(){
         return this.numeroTarjeta;
     }
+    @Override // es un sobre escrito o sobreescritura
+    public void mostrarDatos() {
+        System.out.println(" Cedula = " +  this.cedula
+                            + " Nombre = " + this.nombre
+                            + " Numero Tarjeta" + this.numeroTarjeta);
+    }
 }
+
