@@ -40,6 +40,11 @@ public class App {
         System.out.println("CEDULA: "+ clienteDos.getCedula() + " \nNombre: "
                             + clienteDos.getNombre() + "\nNumero Tarjeta: " + clienteDos.getNumeroTarjeta()
                             + "\nCosto Tiquete: " + costoDos );
+        // prueba de contenedores
+        System.out.println();
+        Prueba pruebaContenedor = new Prueba();
+        pruebaContenedor.generarLista();
+
 
 
 
